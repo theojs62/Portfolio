@@ -2,36 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://theojs62.github.io/Portfolio/categories/</loc>
     <lastmod>2022-05-09T09:43:53+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/d%C3%A9veloppement-web/</loc>
+    <loc>https://theojs62.github.io/Portfolio/categories/d%C3%A9veloppement-web/</loc>
     <lastmod>2022-05-09T09:43:53+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://theojs62.github.io/Portfolio/</loc>
     <lastmod>2022-05-09T09:43:53+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/projet/</loc>
+    <loc>https://theojs62.github.io/Portfolio/categories/projet/</loc>
     <lastmod>2022-05-09T09:43:53+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/projets/</loc>
+    <loc>https://theojs62.github.io/Portfolio/projets/</loc>
     <lastmod>2022-05-09T09:43:53+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/projets/testprojet/</loc>
+    <loc>https://theojs62.github.io/Portfolio/projets/testprojet/</loc>
     <lastmod>2022-05-09T09:43:53+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/</loc>
+    <loc>https://theojs62.github.io/Portfolio/blog/</loc>
     <lastmod>2022-04-25T09:51:04+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/projets/mon-deuxieme-projets/</loc>
+    <loc>https://theojs62.github.io/Portfolio/projets/mon-deuxieme-projets/</loc>
     <lastmod>2022-04-25T09:51:04+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/mon-premier-article/</loc>
+    <loc>https://theojs62.github.io/Portfolio/blog/mon-premier-article/</loc>
     <lastmod>2022-04-25T09:51:04+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/projets/mon-premier-projet/</loc>
+    <loc>https://theojs62.github.io/Portfolio/projets/mon-premier-projet/</loc>
     <lastmod>2022-04-25T09:51:04+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://theojs62.github.io/Portfolio/tags/</loc>
   </url>
 </urlset>

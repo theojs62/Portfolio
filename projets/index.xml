@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projets on My New Hugo Site</title>
-    <link>http://example.org/projets/</link>
+    <link>https://theojs62.github.io/Portfolio/projets/</link>
     <description>Recent content in Projets on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 May 2022 09:43:53 +0200</lastBuildDate><atom:link href="http://example.org/projets/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 May 2022 09:43:53 +0200</lastBuildDate><atom:link href="https://theojs62.github.io/Portfolio/projets/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Testprojet</title>
-      <link>http://example.org/projets/testprojet/</link>
+      <link>https://theojs62.github.io/Portfolio/projets/testprojet/</link>
       <pubDate>Mon, 09 May 2022 09:43:53 +0200</pubDate>
       
-      <guid>http://example.org/projets/testprojet/</guid>
+      <guid>https://theojs62.github.io/Portfolio/projets/testprojet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mon Deuxieme-projet</title>
-      <link>http://example.org/projets/mon-deuxieme-projets/</link>
+      <link>https://theojs62.github.io/Portfolio/projets/mon-deuxieme-projets/</link>
       <pubDate>Mon, 25 Apr 2022 09:51:04 +0200</pubDate>
       
-      <guid>http://example.org/projets/mon-deuxieme-projets/</guid>
+      <guid>https://theojs62.github.io/Portfolio/projets/mon-deuxieme-projets/</guid>
       <description>Bonjour ceci est mon premier article</description>
     </item>
     
     <item>
       <title>Mon Premier-projet</title>
-      <link>http://example.org/projets/mon-premier-projet/</link>
+      <link>https://theojs62.github.io/Portfolio/projets/mon-premier-projet/</link>
       <pubDate>Mon, 25 Apr 2022 09:51:04 +0200</pubDate>
       
-      <guid>http://example.org/projets/mon-premier-projet/</guid>
+      <guid>https://theojs62.github.io/Portfolio/projets/mon-premier-projet/</guid>
       <description>Bonjour ceci est mon premier article</description>
     </item>
     
