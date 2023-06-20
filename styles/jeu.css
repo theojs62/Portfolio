@@ -1,0 +1,145 @@
+/* Section one starts here */
+
+.section-1{
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   }
+h2 {
+    color: #fff;
+}
+  .section-1-wrapper{
+    width: 70%;
+    margin: auto;
+  }
+  .section-1 h1{
+    width: 500px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    position: relative;
+    font-weight: 400;
+  }
+  .section-1-img{
+    display: flex;
+  }
+  .section-1-img .img{
+    width: 150px;
+    height: 230px;
+    background: url(https://image.jeuxvideo.com/medias-sm/165945/1659449134-7418-jaquette-avant.jpg);
+    background-size: cover;
+    margin-right: 10px;
+    border-radius: 10px;
+  }
+  .section-1-img .img-2{
+    background: url(https://store-images.s-microsoft.com/image/apps.4956.13558336166432541.beb57fbe-cc4b-40c5-ba76-c8112867dea2.43b4dea4-61a1-4ffc-81ab-62cf72323363);
+    background-size: cover;
+    background-position: center;
+  }
+  .section-1-img  .img-3{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNeosSb_blUaAOpjMAe9qU0vOCL2NHNCA3CFQJ2EgjjXqPq2elnrMaRMvDBBtzBqfRaZk&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+  }
+  .section-1-img  .img-4{
+    background: url(https://cdn1.epicgames.com/offer/3ddd6a590da64e3686042d108968a6b2/EGS_GodofWar_SantaMonicaStudio_S2_1200x1600-fbdf3cbc2980749091d52751ffabb7b7_1200x1600-fbdf3cbc2980749091d52751ffabb7b7);
+    background-size: cover;
+    background-position: center;
+  }
+  .section-1-img  .img-6{
+    background: url(https://s2.gaming-cdn.com/images/products/943/orig/the-witcher-3-wild-hunt-xbox-one-xbox-series-x-s-xbox-one-xbox-series-x-s-jeu-microsoft-store-europe-cover.jpg?v=1654785482);
+    background-size: cover;
+    background-position: center;
+  }
+  .section-1-img  .img-7{
+    background: url(https://www.playcentral.de/wp-content/uploads/2011/10/Produkt-Platzhalter-2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .section-1-img  .img-8{
+    background: url(https://cdn1.epicgames.com/0712176b5e3e49bfa8866c0ee1359f2d/offer/EGS_KINGDOMHEARTSIIIReMindDLC_SquareEnix_S6-1200x1600-54d8b062dc7488c71874fe2455d6c2bd.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .section-1-img  .img-5{
+    background: url(https://www.thirdeditions.com/1737-thickbox_default/decrypter-les-jeux-the-last-of-us-que-reste-t-il-de-lhumanite-.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .img:hover{
+    transform: translateY(-10px);
+  }
+  .section-2{
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .section-2 h1{
+    font-size: 2rem;
+    color: #fff;
+    margin: 20px 0;
+  }
+  .players{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .p-image{
+    width: 200px;
+    height: 200px;
+    background: url(../images/Sombra_portrait.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: relative;
+  }
+  .p-image-1::after{
+    position: absolute;
+    right: -35px;
+    bottom: 0;
+    font-size: 2rem;
+    color: #ffffff;
+  }
+  .players span{
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .p-image-3{
+    background: url(../images/Geralt-de-Riv-liste-une-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .p-image-2{
+    background: url(../images/APTR-Amicia-Infobox-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .p-image-3::after{
+    background: url(../images/Geralt-de-Riv-liste-une-removebg-preview.png);
+    position: absolute;
+    right: -35px;
+    bottom: 0;
+    font-size: 2rem;
+    color: #ffffff;
+  }
+  .p-image-4{
+    background: url(../images/leon_s_kennedy_196-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  

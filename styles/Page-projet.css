@@ -1,0 +1,346 @@
+
+/* body */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+main {
+	padding: 20px;
+}
+
+.navbar {
+	z-index: 1;
+}
+
+p{
+	color: white;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+/* header */
+header {
+	background-image: url('../images/baniére.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	position: relative;
+}
+
+.header-overlay {
+	background-color: rgba(0,0,0,0.5);
+	height: 0%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.header-small {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 150px;
+	height: 150px;
+}
+
+
+/* img */
+img {
+	font-size: 10px;
+}
+
+
+
+/* footer*/
+
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+
+/* capture d'écran  */ 
+
+
+p #card{
+	margin: 0;
+	text-align: center;
+	font-size: 15px;
+	line-height: 1;
+	color: #000000;
+}
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+}
+
+.card {
+	background-color: #ffffff;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+	margin: 20px;
+	padding: 20px;
+	width: 300px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	animation: flip-in 1s forwards;
+}
+
+@keyframes flip-in {
+	from {
+		transform: rotateY(-90deg);
+	}
+
+	to {
+		transform: rotateY(0);
+	}
+}
+
+.card:hover .overlay {
+	opacity: 1;
+}
+
+.overlay p {
+	color: #fff;
+}
+#v{
+	color: white;
+}
+
+.overlay {
+	background-color: rgba(0,0,0,0.7);
+	color: #000000;
+	font-size: 18px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.overlay h3 {
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+}
+
+.overlay p {
+	margin: 0;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.card img {
+	width: 300px;
+	height: 300px;
+	margin-bottom: 20px;
+}
+
+.card h4 {
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+}
+
+.card {
+	position: relative;
+	z-index: 0;
+}
+
+.card p {
+	margin: 0;
+	text-align: center;
+	font-size: 15px;
+	line-height: 1;
+	color: #000000;
+}
+
+.button {
+background-color: #333;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+font-size: 18px;
+font-weight: bold;
+cursor: pointer;
+margin-top: 20px;
+animation: fade-in 1s forwards;
+}
+
+.button:hover {
+background-color: #fff;
+color: #333;
+}
+
+@keyframes fade-in {
+from {
+	opacity: 0;
+}
+
+to {
+	opacity: 1;
+}
+}
+
+.image-container {
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+/* presentation */ 
+
+section #presentation{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 50px;
+	background-color: #fff;
+}
+
+h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+	text-decoration: underline;
+}
+
+#presentation p {
+	color:white;
+	font-size: 18px;
+	line-height: 1.5;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+  
+  #presentation .underline {
+	width: 50px;
+	height: 5px;
+	background-color: #b10000;
+	margin: 0 auto;
+	margin-bottom: 20px;
+  }
+  
+
+/* section fonctionalite */
+
+section #fonctionalite {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 50px;
+	background-color: #fff;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+#fonctionalite  h2  {
+	font-size: 36px;
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+
+.features {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.column {
+	flex-basis: 30%;
+	margin-bottom: 50px;
+}
+
+#fonctionalite  li  {
+	margin-bottom: 30px;
+	padding: 30px;
+	background-color: #fff;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	position: relative;
+}
+
+#fonctionalite  h3  {
+	font-size: 24px;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+#fonctionalite  p{
+	font-size: 16px;
+	color: #666;
+	line-height: 1.5;
+}
+
+p #card{
+	font-size: 16px;
+	color: #000000;
+	line-height: 1.5;
+}
+/* button*/
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #ff0000;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e80a0a;
+}
+
+.container {
+	text-align: center;
+}  
+
+#image .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+  }
+  
+#image img {
+	max-width: 40%;
+	max-height: 40%;
+	object-fit: contain;
+	padding: 10px;
+	border: 1px solid #000000;
+	border-radius: 2px black;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  
